@@ -9,29 +9,29 @@
 <body> <!--Header con logo e titolo + Main diviso in 2 parti-->
     <header> <!--logo e titolo centrati a sinistra-->
      <img src="./img/Logo.png" alt="logo">
-     <h1>Toboolist</h1>
+     <h1 id="head-title">Toboolist</h1>
     </header>
     <main> 
         <div> <!--prima parte con 2 pulsanti-->
-            <button>Add Task</button>
-            <button>Add Section</button>
+            <button id="task-button">Add Task</button>
+            <button id="section-button">Add Section</button>
         </div>
         <hr>
-        <div> <!--seconda parte con le task-->
-           <h2>New task</h2>
-           <span>Quarterfly Newsletter</span> 
+        <div class="tasklist"> <!--seconda parte con le task-->
+           <h2>&#11206; New task</h2>
+           <p>&check;Quarterfly Newsletter</p> <span class="blue-border">Editorial</span>
 
-           <h2>Today</h2>
-           <span>Recruiting blog post</span>
-           <span>Mobile app launch</span>
-           <span>Interview John H.</span>
-           <span>Summit update to mobile storefronts</span>
+           <h2>&#11206; Today</h2>
+           <p>&check;Recruiting blog post</p> <span class="blue-border">Editorial</span> <br>
+           <p>&check;Mobile app launch</p> <span id="violet-border">Q1 Goals</span> <br>
+           <p>&cross;Interview John H.</p> <span id="green-border">Recruiting</span> <br>
+           <p>&check;Summit update to mobile storefronts</p> <span id="orange-border">Mobile</span> <br>
 
-           <h2>Upcoming</h2>
-           <span>Schedule meeting with Alex</span>
-           <span>Homepage refresh</span>
-           <span>Onboard new Sales team members</span>
-           <span>Review editorial calendar</span>
+           <h2>&#11206; Upcoming</h2>
+           <p>&cross;Schedule meeting with Alex</p> <br>
+           <p>&check;Homepage refresh</p> <span id="pink-border">Website</span> <br>
+           <p>&check;Onboard new Sales team members</p> <span id="lime-border">Sales</span> <br>
+           <p>&check;Review editorial calendar</p> <span class="blue-border">Editorial</span>
         </div>
     </main>
     
